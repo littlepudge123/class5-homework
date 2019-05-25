@@ -15,7 +15,7 @@ def pretty_print(name, to_print):
 
 # Computing data
 
-housedata = pd.read_csv(filepath_or_buffer='/.../class5-homework/housing.data.txt',
+housedata = pd.read_txt(filepath_or_buffer='/.../class5-homework/housing.data.txt',
                         sep = ',',
                         header = 0)
 print(housedata)
@@ -24,7 +24,7 @@ print(housedata)
 # Compute and print summary statistics
 
 
-housedata = pd.read_csv(filepath_or_buffer = '/.../class5_homework/housing.data.txt',
+housedata = pd.read_txt(filepath_or_buffer = '/.../class5_homework/housing.data.txt',
                         sep = ',',
                         header = 0)
 
